@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Facebook</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Numéro mobile ou e-mail</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="input-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password">
+                <span class="eye-icon">👁️</span>
+            </div>
+            <button type="button" onclick="redirect()">Connexion</button>
+            <a href="#">Mot de passe oublié ?</a>
+        </form>
+        <div class="separator">ou</div>
+        <button class="create-account">Créer un compte</button>
+        <div class="language-options">
+            <a href="#">Français (France)</a>
+            <a href="#">العربية</a>
+            <a href="#">English (US)</a>
+            <a href="#">Autres langues...</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
